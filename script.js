@@ -77,5 +77,3 @@ function classificarSistema(sistema){
         return "Possível e determinado"
     }
 }
-
-console.log("Hello word")
