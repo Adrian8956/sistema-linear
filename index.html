@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Classificação de Sistema Linear</title>
+</head>
+<body>
+    <div class="conteiner">
+        <h2>Classificação de Sistema Linear</h2>
+        <form id="sistemForm">
+            <label for="numEquacoes">Número de Equações:</label>
+            <input type="number" name="numEquacoes" id="numEquacoes" required>
+
+            <label for="numIncognitas">Número de Incógnitas:</label>
+            <input type="number" name="numIncognitas" id="numIncognitas" required>
+
+            <div id="equacoesInputs">
+
+            </div>
+
+            <input type="submit" value="Classificar Sistema">
+        </form>
+
+        <div class="resultado" id="resultadoDiv" style="display: none;">
+            <h3>Resultado:</h3>
+            <p id="resultadoTexto">
+
+            </p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
