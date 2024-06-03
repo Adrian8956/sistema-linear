@@ -1,4 +1,4 @@
-const frm = document.getElementById("sistemaForm");
+const frm = document.getElementById("sistemForm");
 
 frm.addEventListener("submit", (e)=>{
     e.preventDefault();
