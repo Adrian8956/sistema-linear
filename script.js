@@ -77,3 +77,5 @@ function classificarSistema(sistema){
         return "Possível e determinado"
     }
 }
+
+const backup = "guarda essa porra";
